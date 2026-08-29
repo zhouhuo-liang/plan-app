@@ -1,0 +1,59 @@
+/* 主题 token：深色玻璃风格（参考 Apogee）——玻璃为深色半透明，背后透出氛围光斑 */
+:root {
+  color-scheme: dark;
+  --bg: #0a0d14;
+  --surface: rgba(42, 50, 56, 0.48);
+  --surface-hover: rgba(54, 64, 70, 0.62);
+  --text: #eceae4;
+  --text-muted: #9aa39c;
+  --primary: #3b82f6;
+  --primary-contrast: #ffffff;
+  --border: #2b322d;
+  --success: #4ade80;
+  --danger: #f87171;
+  --warning: #fbbf24;
+  --shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 2px 8px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  --radius: 14px;
+  --glass-blur: 24px;
+  --glass-saturate: 1.8;
+  --glass-border: rgba(255, 255, 255, 0.16);
+  --blob-a: rgba(59, 130, 246, 0.24);
+  --blob-b: rgba(37, 99, 235, 0.18);
+  --blob-c: rgba(251, 191, 36, 0.14);
+  --blob-d: rgba(59, 130, 246, 0.12);
+  --priority-high: #f87171;
+  --priority-medium: #fbbf24;
+  --priority-low: #94a3b8;
+  --heat-0: var(--surface-hover);
+  --heat-1: color-mix(in srgb, var(--primary) 25%, var(--surface));
+  --heat-2: color-mix(in srgb, var(--primary) 55%, var(--surface));
+  --heat-3: color-mix(in srgb, var(--primary) 78%, var(--surface));
+  --heat-4: var(--primary);
+}
+
+[data-theme='dark'] {
+  /* 更深的变体，与 :root 同为深色玻璃 */
+  color-scheme: dark;
+  --bg: #08090f;
+  --surface: rgba(36, 43, 49, 0.48);
+  --surface-hover: rgba(50, 60, 66, 0.62);
+  --text: #eceae4;
+  --text-muted: #9aa39c;
+  --primary: #3b82f6;
+  --primary-contrast: #ffffff;
+  --border: #2b322d;
+  --success: #4ade80;
+  --danger: #f87171;
+  --warning: #fbbf24;
+  --shadow: 0 16px 40px rgba(0, 0, 0, 0.7), 0 2px 8px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  --glass-blur: 24px;
+  --glass-saturate: 1.8;
+  --glass-border: rgba(255, 255, 255, 0.16);
+  --blob-a: rgba(59, 130, 246, 0.22);
+  --blob-b: rgba(37, 99, 235, 0.16);
+  --blob-c: rgba(251, 191, 36, 0.12);
+  --blob-d: rgba(59, 130, 246, 0.10);
+  --priority-high: #f87171;
+  --priority-medium: #fbbf24;
+  --priority-low: #94a3b8;
+}
